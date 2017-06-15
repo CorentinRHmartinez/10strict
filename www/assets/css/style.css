@@ -924,12 +924,13 @@ blockquote {
 }
 
 .module-title {
+
+  color: #b89968;
   position: relative;
   letter-spacing: 4px;
   text-align: center;
   font-weight: 400;
   font-size: 30px;
-  color: #111;
   margin: 0 0 70px;
 }
 .black-title {
@@ -1196,8 +1197,9 @@ General Styles - Owlcarousel
 	Preloader
 --------------------------------------------------------------*/
 .page-loader {
+
   position: fixed;
-  background: #000;
+  background: #FFF;
   bottom: 0;
   right: 0;
   left: 0;
@@ -1207,10 +1209,11 @@ General Styles - Owlcarousel
 
 .loader {
   position: absolute;
-  border-left: 2px solid #ffffff;
-  border-top: 2px solid rgba(255, 255, 255, 0.2);
-  border-right: 2px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgb(145, 196, 131);
+  border-top: 2px solid rgb(145, 196, 131,0.2);
+  border-right: 2px solid rgb(145, 196, 131,0.2);
+  border-bottom: 2px solid rgb(145, 196, 131,0.2);
+
   height: 46px;
   width: 46px;
   left: 50%;
@@ -1354,6 +1357,11 @@ General Styles - Owlcarousel
   font-size: 11px;
 }
 
+.features-icon a {
+
+  color:#fff;
+  
+}
 /* Navbar search
 
 .dropdown-search {
@@ -1593,6 +1601,8 @@ Google map
 .features-item {
   margin: 20px 0;
   text-align: center;
+  color: #b89968;
+
 }
 
 .features-icon,
@@ -1608,7 +1618,8 @@ Google map
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 14px;
-  color: #91c483;
+  color: #b89968;
+
   margin: 16px 0 15px;
 }
 
