@@ -10,7 +10,7 @@ html {
 body {
   background: #fff;
   font: 400 12px/1.8 "Open Sans", sans-serif;
-  color: #666;
+  color: #91c483;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1599,7 +1599,7 @@ Google map
 .alt-features-icon {
   line-height: 1.2;
   font-size: 62px;
-  color: #fff;
+  color: #91c483;
 }
 
 .features-title,
@@ -1608,7 +1608,7 @@ Google map
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 14px;
-  color: #111;
+  color: #91c483;
   margin: 16px 0 15px;
 }
 
