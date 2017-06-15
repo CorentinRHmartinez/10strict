@@ -1537,6 +1537,7 @@ General Styles - Owlcarousel
 .logo::before {
   content: url("../images/logo.png");  
   display:inline-block;
+    height: 80px;
 }
 /*--------------------------------------------------------------
 	Footer
