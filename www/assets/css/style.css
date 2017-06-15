@@ -157,6 +157,11 @@ a,
   margin-top: 50px;
 }
 
+.navbar-nav.navbar-right {
+
+  background-color:#91c48;
+}
+
 .main {
   position: relative;
   background-color: #fff;
