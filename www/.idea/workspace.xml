@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7482">
-              <caret line="258" column="7" lean-forward="false" selection-start-line="258" selection-start-column="7" selection-end-line="258" selection-end-column="7" />
+            <state relative-caret-position="-463">
+              <caret line="216" column="18" lean-forward="true" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
@@ -84,8 +84,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -283,12 +283,12 @@
       <workItem from="1497540806209" duration="1803000" />
       <workItem from="1497552390217" duration="350000" />
       <workItem from="1497600151313" duration="8103000" />
-      <workItem from="1497617497212" duration="204000" />
+      <workItem from="1497617497212" duration="910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17200000" />
+    <option name="totallyTimeSpent" value="17906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -525,21 +525,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7482">
-          <caret line="258" column="7" lean-forward="false" selection-start-line="258" selection-start-column="7" selection-end-line="258" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="1249" column="16" lean-forward="false" selection-start-line="1249" selection-start-column="16" selection-end-line="1249" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="216" column="18" lean-forward="true" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
