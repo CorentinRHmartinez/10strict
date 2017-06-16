@@ -105,7 +105,7 @@ a,
   border: 0;
 }
 .bg-white {
-  background: #91c483 !important;
+  background: #f68465 !important;
 }
 
 .et-icons .box1 {
@@ -260,7 +260,7 @@ a,
   background: #fff;
 }
 .blue-section{
- background: #83bbc4;
+ background: #6cd8b1;
     }
 
 .bg-dark-30:before {
@@ -691,7 +691,7 @@ a,
 
 .btn.btn-border-w {
   padding: 15px 30px;
-  background-color: #f68465;
+  background-color: #C22546;
   font-size: 2rem;
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.75);
@@ -701,9 +701,9 @@ a,
 
 .btn.btn-border-w:hover{
 
-  background-color: #6cd8b1;
-  border-color: transparent;
-  color: #3f3734;
+  background-color: #FFF;
+
+  color: #C22546;
 }
 
 .btn.btn-d {
@@ -908,7 +908,7 @@ blockquote {
 
 .module-title {
 
-  color: #b89968;
+  color: #3f3734;
   position: relative;
   letter-spacing: 4px;
   text-align: center;
@@ -1245,8 +1245,9 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(145, 196, 131, 0.79);
+  background-color: rgba(108, 216, 177, 0.62);
   border: 0;
+  height: 115px;
   border-radius: 0;
   z-index: 1000;
   font-family: "Roboto Condensed", sans-serif;
@@ -1584,7 +1585,7 @@ Google map
 .features-item {
   margin: 20px 0;
   text-align: center;
-  color: #b89968;
+  color: #3f3734;
 
 }
 
@@ -1601,9 +1602,8 @@ Google map
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 14px;
-  color: #b89968;
-
-  margin: 16px 0 15px;
+  color: #3f3734;
+  margin: 116px 0 15px;
 }
 
 .alt-features-item {
@@ -2469,7 +2469,7 @@ Google map
 
 }
 
-.fa.fa-instagram:hover {
+.fa.fa-instagram:hover   {
   color: #A13F9E;
 }
 /*--------------------------------------------------------------
