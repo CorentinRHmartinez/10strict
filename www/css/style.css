@@ -22,7 +22,7 @@ body {
     }
 .cta-main {
     background-color: #6cd8b1;
-
+   text-transform: uppercase;
     padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     border:1px solid #6cd8b1;
@@ -42,6 +42,7 @@ body {
     color: #fff;
     font-family: disposition;
     font-size: 4.5rem;
+    color: #3f3734;
 
 
 }
@@ -65,7 +66,7 @@ a {
 
 }
 .section3 {
-    background-color: #6cd8b1;
+    background-color: #3f3734;
     color: #fff;
 }
 #mc_embed_signup_scroll{
@@ -73,14 +74,19 @@ a {
 
 }
 .action {
-    border:2px solid #6cd8b1;
+    border:2px solid #3f3734;
     padding: 20px;
-
+    color: #3f3734;;
     min-height: 360px;
 }
 .action h2 {
-
+   color: #3f3734;
     font-size: 1.8rem;
+}
+.action:hover {
+    box-shadow: 0 0 10px 10px rgba(125, 125, 125, 0.35);
+}
+
 }
 .features-item a{
     color: #6cd8b1;
@@ -151,6 +157,7 @@ a {
 
 .section3{
     padding:50px 0px;
+
 }
 
 .section4 {
