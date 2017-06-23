@@ -190,6 +190,23 @@ footer {
 footer a {
     color: #fff;
 }
+.wow{
+    background-color: #6cd8b1;
+}
+.wow ul {
+    margin: 0px;
+    padding: 0px;
+}
+.wow ul li {
+    list-style-type:none;
+}
+.wow h2 {
+    margin-bottom: 30px;
+}
+.legal{
+    color: #fff;
+    height:100vh;
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
 
