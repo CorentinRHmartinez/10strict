@@ -85,9 +85,10 @@ a {
     font-size:4rem;
 }
 .text {
-    font-size: 22px;
+    font-size: 30px;
     margin: 20px 0px 45px 0px;
     font-weight: bold;
+    text-align: center;
 }
 
 #service:after {
@@ -107,6 +108,7 @@ a {
 }
 .action p {
     line-height:20px;
+    padding-top: 80px;
 }
 #sec_2:after {
 
