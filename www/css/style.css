@@ -51,6 +51,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: #6cd8b1 !important;
 }
 .section1 a {
     color:#fff;
