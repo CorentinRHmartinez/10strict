@@ -107,7 +107,7 @@
                     <div id="img-1" class="action2"><a  data-scroll  class="btn btn-theme cta-main btn-wait" href="#service" title="Service" >Découvrir<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i></a></div>
                 </div>
                 <div  class="col-md-4 col-sm-12">
-                    <div id="img-3" class="action2">
+                    <div id="img-2" class="action2">
                         <a  data-scroll  class="btn btn-theme cta-main btn-wait" href="#service" title="Service" >Découvrir<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a></div></div>
                 <div  class="col-md-4  col-sm-12">
                     <div id="img-3" class="action2">
@@ -229,6 +229,8 @@
         </div>
     </div>
 </div>
+    <div id="map"></div>
+
     <footer><div class="container"><div class="row"><div class="col-md-6"><p>GAIA</p></div> <div class="col-md-6 text-right"><a href="mention.html" title="Mentions légales" >Mentions légales</a></div></div></div>
     </footer></div>
 <script src="/cookiechoices.js"></script><script>document.addEventListener
@@ -245,14 +247,117 @@
 <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
 <script src="http://gaiaapp.fr//cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l’utilisation des cookies.', 'J’accepte', 'En savoir plus', 'https://www.cnil.fr/fr/site-web-cookies-et-autres-traceurs');});</script>
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/11.1.0/js/smooth-scroll.js"></script>
 
-
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOW1nIPYCEKzxxtqjUtOLwbf_Z58GpDmY&libraries=places"></script>
 <script src="js/javascript.js"> </script>
+
+<script>
+    // This example requires the Places library. Include the libraries=places
+    // parameter when you first load the API. For example:
+    // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+    var map;
+    var infowindow;
+    var markers = [];
+
+    function initMap() {
+        var centroid = {lat: 48.8647, lng: 2.3490};
+
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: centroid,
+            zoom: 15
+        });
+        infowindow = new google.maps.InfoWindow();
+
+        findPlaces(centroid);
+
+        map.addListener('center_changed', function() {
+            console.log('PRPOUT');
+        });
+        map.addListener('dragend', function() {
+            findPlaces(map.getCenter());
+        });
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                infowindow.setPosition(pos);
+                infowindow.setContent('Location found.');
+                map.setCenter(pos);
+                findPlaces(pos);
+            }, function() {
+                handleLocationError(true, infowindow, map.getCenter());
+            });
+        } else {
+            // Browser doesn't support Geolocation
+            handleLocationError(false, infowindow, map.getCenter());
+        }
+
+    }
+
+    function findPlaces(latlng){
+        var service = new google.maps.places.PlacesService(map);
+        service.nearbySearch({
+            keyword : "vegan|vegetarien",
+            location: latlng,
+            radius: 1000,
+            type: ['restaurant']
+        }, callback);
+    }
+
+    function callback(results, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK) {
+
+            for (var i = 0; i < markers.length; i++ ) {
+                markers[i].setMap(null);
+            }
+            markers.length = 0;
+
+            for (var i = 0; i < results.length; i++) {
+
+                createMarker(results[i]);
+            }
+        }
+    }
+
+    function createMarker(place) {
+        var placeLoc = place.geometry.location;
+        var marker = new google.maps.Marker({
+            map: map,
+            position: place.geometry.location
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            console.log(place);
+            infowindow.setContent(place.name +  place.rating  +'<img src="'+ place.photos[0].getUrl({maxWidth:100, maxHeight:100}) +'">');
+            infowindow.open(map, this);
+        });
+        markers.push(marker);
+    }
+
+
+
+
+    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+            'Error: The Geolocation service failed.' :
+            'Error: Your browser doesn\'t support geolocation.');
+    }
+    initMap();
+</script>
 
 </body>
 </html>

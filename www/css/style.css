@@ -41,7 +41,7 @@ body {
 .title {
     font-size: 3.5rem;
     font-weight: bold;
-    color: #3f3734;
+    color: #ffffff;;
     padding: 40px;
 }
 .title span {
@@ -87,21 +87,21 @@ a {
     color: #fff;
 }
 #img-1 {
-    background-image: url(../img/download-1.jpg);
+    background-image: url(../img/brooke-lark-200704.jpg);
     padding: 20px;
     background-size: cover;
     color: #3f3734;;
     min-height: 360px;
 }
 #img-2 {
-    background-image: url(../img/images.jpg);
+    background-image: url(../img/brooke-lark-194252.jpg);
     padding: 20px;
     background-size: cover;
     color: #3f3734;;
     min-height: 360px;
 }
 #img-3 {
-    background-image: url(../img/veganfood.jpg);
+    background-image: url(../img/brenda-godinez-228181.jpg);
     padding: 20px;
     background-size: cover;
     color: #3f3734;;
@@ -134,10 +134,10 @@ a {
     content: "";
     position: absolute;
     bottom: 0;
-    background-image: url(../img/bowl.png);
-    width: 150px;
-    height: 150px;
-    margin-bottom: 200px;
+    background-image: url(../img/VEGAN.png);
+    width: 170px;
+    height: 100px;
+    margin-bottom: 250px;
     left: 30%;
 
     text-align: center;
@@ -155,9 +155,9 @@ a {
     position: absolute;
     bottom: 0;
     background-image: url(../img/click.png);
-    width: 150px;
-    height: 150px;
-    margin-bottom: 200px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 250px;
     left: 30%;
 
     text-align: center;
@@ -170,10 +170,10 @@ a {
     content: "";
     position: absolute;
     bottom: 0;
-    background-image: url(../img/coupe.png);
-    width: 150px;
-    height: 150px;
-    margin-bottom: 200px;
+    background-image: url(../img/delivery.png);
+    width: 170px;
+    height: 110px;
+    margin-bottom: 240px;
     left: 30%;
 
     text-align: center;
@@ -257,3 +257,12 @@ footer a {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
+
+
+
+ #map {
+     height: 100vh;
+     width:100vw;
+     position:fixed;
+     top:0;
+ }

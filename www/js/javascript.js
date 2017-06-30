@@ -1,7 +1,15 @@
-$( document ).ready(function () {
+(function ($) {
 
 
-
+/*
+    $.ajax({
+        url: "https://maps.googleapis.com/maps/api/place/textsearch/json?query=vegan&sensor=true&location=48.8647,2.3490&radius=20&key=AIzaSyCOW1nIPYCEKzxxtqjUtOLwbf_Z58GpDmY",
+        context: document.body,
+        dataType : "json"
+    }).done(function(data) {
+        console.log(data);
+    });
+*/
 
     // Initialize Firebase
     var config = {
@@ -190,4 +198,4 @@ $( document ).ready(function () {
 
         smoothScroll.init();
 
-});
+})(jQuery);
