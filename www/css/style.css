@@ -23,12 +23,12 @@ body {
 .cta-main {
     background-color: #6cd8b1;
    text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 15px 50px;
     transition: all 0.3s ease-in-out;
     border:1px solid #6cd8b1;
     border-radius: 71px;
     /* padding: 10px 20px; */
-    font-size: 24px;
+    font-size: 15px;
 }
 .cta-main:hover{
     border:1px solid #6cd8b1;
@@ -42,8 +42,7 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     color: #3f3734;
-
-
+    padding: 40px;
 }
 .title span {
     display: block;
@@ -70,13 +69,46 @@ a {
 }
 
 .action {
-    border:2px solid #3f3734;
+    background: #f68465;
+    padding: 20px;
+    color: #ffffff;
+    min-height: 360px;
+    padding-top: 140px;
+}
+.action2 {
+
     padding: 20px;
     color: #3f3734;;
     min-height: 360px;
 }
+.btn-wait {
+    margin-top: 90%;
+    margin-left: 20%;
+    color: #fff;
+}
+#img-1 {
+    background-image: url(../img/download-1.jpg);
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;;
+    min-height: 360px;
+}
+#img-2 {
+    background-image: url(../img/images.jpg);
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;;
+    min-height: 360px;
+}
+#img-3 {
+    background-image: url(../img/veganfood.jpg);
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;;
+    min-height: 360px;
+}
 .action h2 {
-   color: #3f3734;
+   color: #ffffff;
     font-size: 1.8rem;
 }
 
@@ -85,10 +117,17 @@ a {
     font-size:4rem;
 }
 .text {
+    font-size: 25px;
+    margin: 20px 0px 45px 0px;
+    font-weight: bold;
+    text-align: right;
+}
+.browntext {
     font-size: 30px;
     margin: 20px 0px 45px 0px;
     font-weight: bold;
     text-align: center;
+    color: #3f3734;
 }
 
 #service:after {
@@ -96,10 +135,10 @@ a {
     position: absolute;
     bottom: 0;
     background-image: url(../img/bowl.png);
-    width: 100px;
-    height: 100px;
-    margin-bottom: -50px;
-    left: 35%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 200px;
+    left: 30%;
 
     text-align: center;
     -webkit-background-size: ;
@@ -108,7 +147,7 @@ a {
 }
 .action p {
     line-height:20px;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 #sec_2:after {
 
@@ -116,10 +155,10 @@ a {
     position: absolute;
     bottom: 0;
     background-image: url(../img/click.png);
-    width: 90px;
-    height: 90px;
-    margin-bottom: -50px;
-    left: 35%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 200px;
+    left: 30%;
 
     text-align: center;
     -webkit-background-size: ;
@@ -132,10 +171,10 @@ a {
     position: absolute;
     bottom: 0;
     background-image: url(../img/coupe.png);
-    width: 100px;
-    height: 100px;
-    margin-bottom: -50px;
-    left: 35%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 200px;
+    left: 30%;
 
     text-align: center;
     -webkit-background-size: ;
