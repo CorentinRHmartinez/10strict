@@ -23,12 +23,12 @@ body {
 .cta-main {
     background-color: #6cd8b1;
    text-transform: uppercase;
-    padding: 15px 50px;
+    padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     border:1px solid #6cd8b1;
     border-radius: 71px;
     /* padding: 10px 20px; */
-    font-size: 15px;
+    font-size: 24px;
 }
 .cta-main:hover{
     border:1px solid #6cd8b1;
@@ -41,8 +41,9 @@ body {
 .title {
     font-size: 3.5rem;
     font-weight: bold;
-    color: #ffffff;;
-    padding: 40px;
+    color: #3f3734;
+
+
 }
 .title span {
     display: block;
@@ -69,46 +70,13 @@ a {
 }
 
 .action {
-    background: #f68465;
+    border:2px solid #3f3734;
     padding: 20px;
-    color: #ffffff;
-    min-height: 360px;
-    padding-top: 140px;
-}
-.action2 {
-
-    padding: 20px;
-    color: #3f3734;;
-    min-height: 360px;
-}
-.btn-wait {
-    margin-top: 90%;
-    margin-left: 20%;
-    color: #fff;
-}
-#img-1 {
-    background-image: url(../img/brooke-lark-200704.jpg);
-    padding: 20px;
-    background-size: cover;
-    color: #3f3734;;
-    min-height: 360px;
-}
-#img-2 {
-    background-image: url(../img/brooke-lark-194252.jpg);
-    padding: 20px;
-    background-size: cover;
-    color: #3f3734;;
-    min-height: 360px;
-}
-#img-3 {
-    background-image: url(../img/brenda-godinez-228181.jpg);
-    padding: 20px;
-    background-size: cover;
     color: #3f3734;;
     min-height: 360px;
 }
 .action h2 {
-   color: #ffffff;
+   color: #3f3734;
     font-size: 1.8rem;
 }
 
@@ -117,28 +85,21 @@ a {
     font-size:4rem;
 }
 .text {
-    font-size: 25px;
-    margin: 20px 0px 45px 0px;
-    font-weight: bold;
-    text-align: right;
-}
-.browntext {
     font-size: 30px;
     margin: 20px 0px 45px 0px;
     font-weight: bold;
     text-align: center;
-    color: #3f3734;
 }
 
 #service:after {
     content: "";
     position: absolute;
     bottom: 0;
-    background-image: url(../img/VEGAN.png);
-    width: 170px;
+    background-image: url(../img/bowl.png);
+    width: 100px;
     height: 100px;
-    margin-bottom: 250px;
-    left: 30%;
+    margin-bottom: -50px;
+    left: 35%;
 
     text-align: center;
     -webkit-background-size: ;
@@ -147,7 +108,7 @@ a {
 }
 .action p {
     line-height:20px;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 #sec_2:after {
 
@@ -155,10 +116,10 @@ a {
     position: absolute;
     bottom: 0;
     background-image: url(../img/click.png);
-    width: 100px;
-    height: 100px;
-    margin-bottom: 250px;
-    left: 30%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: -50px;
+    left: 35%;
 
     text-align: center;
     -webkit-background-size: ;
@@ -170,11 +131,11 @@ a {
     content: "";
     position: absolute;
     bottom: 0;
-    background-image: url(../img/delivery.png);
-    width: 170px;
-    height: 110px;
-    margin-bottom: 240px;
-    left: 30%;
+    background-image: url(../img/coupe.png);
+    width: 100px;
+    height: 100px;
+    margin-bottom: -50px;
+    left: 35%;
 
     text-align: center;
     -webkit-background-size: ;
@@ -187,7 +148,7 @@ a {
     text-align: center;
 }
 .section2{
-    padding: 0px 0px;
+    padding: 50px 0px;
 }
 .action{
     margin:50px 0px;
@@ -257,12 +218,3 @@ footer a {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-
-
-
- #map {
-     height: 50vh;
-     width:100%;
-     position:fixed;
-     top:0;
- }

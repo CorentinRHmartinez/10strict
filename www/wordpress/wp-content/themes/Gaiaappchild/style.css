@@ -1,13 +1,257 @@
+/* ----- FONT  ----- */
 
-/* 
-Theme Name:		 Twenty Seventeen Child
-Theme URI:		 
-Description:	 Thème enfant de twenty seventeen
-Author:			 ALD
-Author URI:		 http://knowledge.parcours-performance.com/
-Template:		 twentyseventeen
-Version:		 1.0.0
-License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:	 Tw17-child
--------------------------------------------------------------- */ 
+@font-face {
+    font-family: "Disposition";
+    src: url("../assets/fonts/disposition.otf") format("opentype");
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #6cd8b1;
+}
+
+.section1  {
+
+    background: url("img/background_1.jpg") center center;
+
+    background-repeat:no-repeat;
+
+    height:100vh;
+
+    background-size: cover;
+    }
+.cta-main {
+    background-color: #6cd8b1;
+   text-transform: uppercase;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    border:1px solid #6cd8b1;
+    border-radius: 71px;
+    /* padding: 10px 20px; */
+    font-size: 15px;
+}
+.cta-main:hover{
+    border:1px solid #6cd8b1;
+    background-color: #ffffff;
+    color:#6cd8b1;
+}
+.cta-main:hover a {
+    color:#6cd8b1;
+}
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #FFF;
+    padding: 40px;
+}
+.title span {
+    display: block;
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+}
+.section1 a {
+    color:#fff;
+}
+
+.cta-main a:hover {
+    color:#6cd8b1;
+}
+#mc-embedded-subscribe {
+    background-color: #6cd8b1!important;
+
+
+}
+.section3 {
+    background-color: #3f3734;
+    color: #fff;
+}
+
+.action {
+    margin: 50px 0px;
+    text-align: center;
+    background: #f68465;
+    padding: 20px;
+    color: #ffffff;
+    min-height: 380px;
+    margin-top:140px
+}
+.action2 {
+
+
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 24em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;;
+}
+
+.btn-wait {
+
+    color: #fff;
+}
+.center {
+
+    align-self: flex-end;
+}
+#img-1 {
+    background-image: url(img/RESTO1.png);
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;
+    min-height:  500px;
+}
+#img-2 {
+    background-image: url(img/RESTO2.png);
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;;
+    min-height:  500px;
+}
+#img-3 {
+    background-image: url(img/RESTO3.png);
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;
+    min-height: 500px;
+}
+.action h2 {
+   color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.features-item a{
+    color: #6cd8b1;
+    font-size:4rem;
+}
+.commande {
+    white-space: nowrap;
+    padding-bottom: 190%;
+    margin-left: 20%;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    }
+.text {
+    font-size: 25px;
+    margin: 20px 0px 45px 0px;
+    font-weight: bold;
+    text-align: right;
+}
+.browntext {
+    font-size: 30px;
+    margin: 20px 0px 45px 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #3f3734;
+}
+
+
+.action p {
+    line-height:20px;
+    padding-top: 20px;
+}
+
+
+#sec_1,#sec_2,#sec_3 {
+    position: relative;
+    text-align: center;
+}
+.section2{
+    padding: 0px 0px;
+}
+.action{
+    margin:50px 0px;
+}
+
+.action img {
+    width:130px;
+    padding: 0px;
+}
+
+.section3{
+    padding:50px 0px;
+
+}
+
+.section4 {
+    padding: 50px 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 127px;
+    margin-left: 10%;
+}
+.fa {
+    transition: all 0.3s ease-in-out;
+}
+.fa.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa.fa-twitter:hover {
+    color: #00ACEE;
+}
+
+.fa.fa-instagram:hover {
+    color: #A13F9E;
+}
+footer {
+    background-color: #6cd8b1;
+    color:#fff;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+.wow{
+    background-color: #6cd8b1;
+}
+.wow ul {
+    margin: 0px;
+    padding: 0px;
+}
+.wow ul li {
+    list-style-type:none;
+}
+.wow h2 {
+    margin-bottom: 30px;
+}
+.legal{
+    color: #fff;
+    height:100vh;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+ #map {
+     height: 50vh;
+     width:100%;
+     position:fixed;
+     top:0;
+ }
