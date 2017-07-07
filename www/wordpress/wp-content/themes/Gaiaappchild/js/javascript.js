@@ -1,6 +1,12 @@
 $( document ).ready(function () {
 
+    maxHeight = 0;
+    $('.same-height').each(function () {
+        maxHeight = $(this).height() > maxHeight ? $(this).height() : maxHeight;
+    });
+    $('.same-height').height(maxHeight);
 
+    console.log("hello");
 
 
     // Initialize Firebase
@@ -189,5 +195,8 @@ $( document ).ready(function () {
 // sync on list change
 
         smoothScroll.init();
+
+
+
 
 });

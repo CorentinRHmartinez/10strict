@@ -12,8 +12,7 @@
 
 	</div><!-- .site-content -->
 
-         <div id="map"></div>
-        </div>
+
     <footer><div class="container"><div class="row"><div class="col-md-6"><p>SUIVEZ NOUS !<a style="padding: 10px; class="track3" target="_blank" href="https://www.instagram.com/gaiaapp/?hl=fr"><span class="fa fa-instagram"></span></a><a style="padding: 10px;" class="track1" target="_blank" href="https://www.facebook.com/gaiaapp/"><span class="fa fa-facebook"></span></a><a style="padding: 10px;" class="track2" target="_blank" href="https://twitter.com/gaia_app  "><span class="fa fa-twitter"></span></a></p></div> <div class="col-md-6 text-right"><a href="mention.html" title="Mentions légales" >Mentions légales</a></div></div></div>
     </footer></div>
 
@@ -36,6 +35,16 @@
     // This example requires the Places library. Include the libraries=places
     // parameter when you first load the API. For example:
     // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+    maxHeight = 0;
+    $('.same-height').each(function () {
+        maxHeight = $(this).height() > maxHeight ? $(this).height() : maxHeight;
+    });
+    $('.same-height').height(maxHeight);
+
+
+
+
 
     var map;
     var infowindow;
@@ -130,7 +139,11 @@
             'Error: Your browser doesn\'t support geolocation.');
     }
     initMap();
-</script>
+
+
+
+
+            </script>
 
 </body>
 </html>
