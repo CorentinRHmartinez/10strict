@@ -21,16 +21,16 @@ get_header(); ?>
 
             <div class="row section1 align-items-center">
 
-                <a href="index.html" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a>
+
 
                 <div class="col important_z text-center">
                     <h1 class="title"> LE GOÛT DU NATUREL <!--<span class="title2">AU SERVICE</span>  D'UNE AUTRE GASTRONOMIE--></h1>
-                    <a  data-scroll  class="btn btn-theme cta-main" href="#cta" title="Service" >Découvrir<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a>
+                    <a  data-scroll  class="btn btn-theme cta-main" href="#découvrir" title="Service" >Découvrir<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a>
                 </div>
             </div>
         </div>
 
-        <div id="cta" class="section2">
+        <div id="découvrir" class="section2">
             <h2 class="browntext" style="text-align: center">C'EST AUSSI SIMPLE QUE ÇA !</h2>
             <div class="container-fluid">
                 <div class="row">
@@ -42,7 +42,7 @@ get_header(); ?>
                             <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/click.png"    ></div><div class="same-height content-produit"><h2>COMMANDEZ EN 3 CLICS !</h2><p>Simplicité, rapidité, efficacité… Une expérience optimale pour commander votre déjeuner ou votre dîner.</p></div></div>
                     </div><div  class="col-md-4  col-sm-12">
                         <div id="sec_3" class="action">
-                            <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/coupe.png"></div><div class="same-height content-produit"><h2>FAITES VOUS LIVRER EN 30 MINUTES !</h2><p>Pour être tenu au courant en exclusivité de la sortie de notre service, laissez nous votre adresse mail !</p></div></div>
+                            <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/coupe.png"></div><div class="same-height content-produit"><h2>FAITES VOUS LIVRER EN 30 MINUTES !</h2><p>Recevez votre commande dans la demi-heure et suivez son avancée en temps réel</p></div></div>
 
                     </div></div>
             </div>
@@ -84,13 +84,16 @@ get_header(); ?>
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-7 hiden_phone col-sm-12">
-                        <iframe src="https://player.vimeo.com/video/224475339" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <div class="col-md-6 video col-sm-12">
+                        <div class="iframe-responsive-wrapper">
+                            <img class="iframe-ratio" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7">
+                            <iframe src="https://player.vimeo.com/video/224475339"  style="width:100%;height:100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
 
                     </div>
-                    <div class="col-md-5 col-sm-12">
-                        <div class="col-xs-12"><p class="text" style="padding-top: 50px;">Votre boite a besoin de fraîcheur ?
-                            Abonnez vous à la newslatter de Mère Nature !</p></div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="col-xs-12"><p class="text" style="padding-top: 50px;">Votre boite  mail a besoin de fraîcheur ?
+                            Abonnez vous à la newsletter de Mère Nature !</p></div>
                         <div class="callout-btn-box">
                             <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
                             <!-- <form id="subscription-form" role="form" method="post" action="php/subscribe.php">

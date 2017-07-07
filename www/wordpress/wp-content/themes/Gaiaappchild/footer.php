@@ -13,7 +13,7 @@
 	</div><!-- .site-content -->
 
 
-    <footer><div class="container"><div class="row"><div class="col-md-6"><p>SUIVEZ NOUS !<a style="padding: 10px; class="track3" target="_blank" href="https://www.instagram.com/gaiaapp/?hl=fr"><span class="fa fa-instagram"></span></a><a style="padding: 10px;" class="track1" target="_blank" href="https://www.facebook.com/gaiaapp/"><span class="fa fa-facebook"></span></a><a style="padding: 10px;" class="track2" target="_blank" href="https://twitter.com/gaia_app  "><span class="fa fa-twitter"></span></a></p></div> <div class="col-md-6 text-right"><a href="mention.html" title="Mentions légales" >Mentions légales</a></div></div></div>
+    <footer><div class="container"><div class="row"><div class="col-md-6"><p>SUIVEZ NOUS !<a style="padding: 10px; class="track3" target="_blank" href="https://www.instagram.com/gaiaapp/?hl=fr"><span class="fa fa-instagram"></span></a><a style="padding: 10px;" class="track1" target="_blank" href="https://www.facebook.com/gaiaapp/"><span class="fa fa-facebook"></span></a><a style="padding: 10px;" class="track2" target="_blank" href="https://twitter.com/gaia_app  "><span class="fa fa-twitter"></span></a></p></div> <div class="col-md-6 text-right"><a href="http://gaiaapp.fr/mention-legale/" title="Mentions légales" >Mentions légales</a></div></div></div>
     </footer></div>
 
 
@@ -41,7 +41,6 @@
         maxHeight = $(this).height() > maxHeight ? $(this).height() : maxHeight;
     });
     $('.same-height').height(maxHeight);
-
 
 
 
@@ -123,7 +122,7 @@
 
         google.maps.event.addListener(marker, 'click', function() {
             console.log(place);
-            infowindow.setContent(place.name +  place.rating  +'<img src="'+ place.photos[0].getUrl({maxWidth:100, maxHeight:100}) +'">');
+            infowindow.setContent('<div class="gmap"><div class="gmap1">' + place.name + '</div>' + '<div class="gmap2"> Note :' + place.rating + '</div>'  +'<img class="gmap3" src="'+ place.photos[0].getUrl({maxWidth:100, maxHeight:100}) +'"></div>');
             infowindow.open(map, this);
         });
         markers.push(marker);

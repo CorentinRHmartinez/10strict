@@ -79,4 +79,29 @@
 
 	</div><!-- .sidebar -->
 
-	<div id="content" class="site-content">
+
+
+                <?php if ( is_front_page()) : ?>
+
+
+<div id="content" class="site-content">
+    <div class="container-fluid menu"><div class="row">
+                <a href="http://gaiaapp.fr/" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a></div></div>
+                <?php else : ?>
+    <div id="content" class="site-content">
+        <div class="container-fluid menuWow"><div class="row">
+                <a href="http://gaiaapp.fr/" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a></div></div>
+                <?php endif; ?>
+
+                <div id="site-header-menu" class="site-header-menu">
+						<?php if ( has_nav_menu( 'primary' ) ) : ?>
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'menu_class'     => 'primary-menu',
+            ) );
+            ?>
+        </nav><!-- .main-navigation -->
+<?php endif; ?>
+    </div>

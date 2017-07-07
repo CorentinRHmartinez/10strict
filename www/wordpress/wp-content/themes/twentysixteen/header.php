@@ -75,6 +75,7 @@
 				<?php endif; ?>
 			</div><!-- .site-header-main -->
 
+
 			<?php if ( get_header_image() ) : ?>
 				<?php
 					/**
