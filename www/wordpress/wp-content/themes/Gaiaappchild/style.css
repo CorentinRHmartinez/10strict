@@ -423,6 +423,7 @@ a {
 .entry-title {
     text-align: center;
     margin: 20px 0px;
+    display: none;
 }
 .wrap {
     line-height: 1.5;
@@ -496,8 +497,6 @@ footer a {
     font-size
 }
 @media (min-width: 576px) {
-
-
 }
 
 
@@ -522,6 +521,10 @@ footer a {
     }
     .title {
         font-size: 1.9rem;
+    }
+    .cta-main {
+        padding: 18px 22px;
+        font-size: 7px;
     }
 }
 
