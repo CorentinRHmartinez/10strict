@@ -24,7 +24,6 @@
     <meta property="og:type"               content="Application" />
     <meta property="og:title"              content="Gaia" />
     <meta property="og:description"        content="LE GOÛT DU NATUREL" />
- ,
     <title>Gaia</title>
     <!--
     Favicons
