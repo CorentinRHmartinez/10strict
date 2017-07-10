@@ -24,6 +24,7 @@
     <meta property="og:type"               content="Application" />
     <meta property="og:title"              content="Gaia" />
     <meta property="og:description"        content="LE GOÛT DU NATUREL" />
+    <meta property="og:image" content="http://gaiaapp.fr/img/logo-gaia.png" />
     <title>Gaia</title>
     <!--
     Favicons
