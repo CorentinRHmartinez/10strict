@@ -63,11 +63,10 @@ body {
 .cta-main {
     background-color: #6cd8b1;
     text-transform: uppercase;
-    padding: 18px 62px;
+    padding: 18px 42px;
     transition: all 0.3s ease-in-out;
     border: 1px solid #6cd8b1;
     border-radius: 71px;
-
     letter-spacing: 4px;
     font-size: 15px;
 }
@@ -146,6 +145,29 @@ a {
     -webkit-box-shadow: 0 0 10px 1px #C7AEA5;
     box-shadow: 0 0 10px 1px #C7AEA5;
 }
+.action3 {
+    position: relative;
+    padding: 20px;
+    background-size: cover;
+    color: #3f3734;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 453px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0 0 10px 1px #C7AEA5;
+    box-shadow: 0 0 10px 1px #C7AEA5;
+}
 
 .section2 .container-fluid,.section3 .container-fluid,.section4 .container-fluid {
     padding-left: 95px;
@@ -193,21 +215,21 @@ a {
 
 }
 #img-4 {
-    background-image: url(img/PRESSE1.jpg);
+    background-image: url(img/PRESSE1N.jpg);
     padding: 20px;
     background-size: cover;
     color: #3f3734;
 
 }
 #img-5 {
-    background-image: url(img/PRESSE2.jpg);
+    background-image: url(img/PRESSE2N.jpg);
     padding: 20px;
     background-size: cover;
     color: #3f3734;
 
 }
 #img-6 {
-    background-image: url(img/PRESSE3.jpg);
+    background-image: url(img/PRESSE3N.jpg);
     padding: 20px;
     background-size: cover;
     color: #3f3734;
@@ -256,7 +278,10 @@ a {
 
 }
 .btn-press {
-    margin-left: 15%;
+    margin-left: 18%;
+}
+.btn-press-second {
+    margin-left: 21%;
 }
 .browntext {
     font-size: 25px;
@@ -525,6 +550,12 @@ footer a {
     .cta-main {
         padding: 18px 22px;
         font-size: 7px;
+    }
+    .btn-press {
+        margin-left: 20%;
+    }
+    .btn-press-second {
+        margin-left: 22%;
     }
 }
 
