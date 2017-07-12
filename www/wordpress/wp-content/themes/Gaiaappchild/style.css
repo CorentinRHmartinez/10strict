@@ -359,7 +359,9 @@ a {
     min-height: 455px;
     border-radius: 7px;
 }
-
+#post-7{
+    margin-bottom: 500px;
+}
 .action img {
     padding: 0;
     height: 88px;
