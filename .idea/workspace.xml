@@ -21,8 +21,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="289" column="1" lean-forward="false" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
+            <state relative-caret-position="223">
+              <caret line="279" column="17" lean-forward="false" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mention.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/mention.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-555">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -45,6 +55,7 @@
       <find>entry</find>
       <find>action2</find>
       <find>btn</find>
+      <find>page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -309,15 +320,15 @@
       <workItem from="1499856534389" duration="765000" />
       <workItem from="1499866561773" duration="423000" />
       <workItem from="1499881317222" duration="547000" />
-      <workItem from="1499930691800" duration="518000" />
+      <workItem from="1499930691800" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42756000" />
+    <option name="totallyTimeSpent" value="43722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="23" width="1035" height="731" extended-state="1" />
+    <frame x="120" y="23" width="1035" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30110776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -350,13 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
@@ -607,10 +611,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/mention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="289" column="1" lean-forward="false" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
+        <state relative-caret-position="223">
+          <caret line="279" column="17" lean-forward="false" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
           <folding />
         </state>
       </provider>
