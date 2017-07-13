@@ -278,6 +278,16 @@ a {
     text-align: center;
 
 }
+.woocommerce-account .woocommerce-MyAccount-content {
+    float: left;
+    margin-top: -350px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: right;
+    width: 25%;
+    margin-top: -40%;
+    border-top: 1px solid #ddd;
+}
 .btn-press {
     margin-left: 21%;
 }
