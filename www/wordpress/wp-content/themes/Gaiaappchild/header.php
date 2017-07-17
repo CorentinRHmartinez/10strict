@@ -24,7 +24,6 @@
     <meta property="og:type"               content="Application" />
     <meta property="og:title"              content="Gaia" />
     <meta property="og:description"        content="LE GOÛT DU NATUREL" />
-    <meta property="og:image" content="http://gaiaapp.fr/img/logo-gaia.png" />
     <title>Gaia</title>
     <!--
     Favicons
@@ -81,27 +80,48 @@
 
 
 
-                <?php if ( is_front_page()) : ?>
+
+<?php if ( is_front_page()) : ?>
 
 
 <div id="content" class="site-content">
-    <div class="container-fluid menu"><div class="row">
-                <a href="http://gaiaapp.fr/" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a></div></div>
-                <?php else : ?>
-    <div id="content" class="site-content">
-        <div class="container-fluid menuWow"><div class="row">
-                <a href="http://gaiaapp.fr/" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a></div></div>
-                <?php endif; ?>
+    <div class="container-fluid menu"><div class="row"><div class="col-md-6">
+                <a href="http://gaiaapp.fr/" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a>
+            </div>
+            <div class="col-md-6">
+    <div id="site-header-menu" class="site-header-menu">
 
-                <div id="site-header-menu" class="site-header-menu">
-						<?php if ( has_nav_menu( 'primary' ) ) : ?>
-        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
-            <?php
-            wp_nav_menu( array(
-                'theme_location' => 'primary',
-                'menu_class'     => 'primary-menu',
-            ) );
-            ?>
+        <nav id="site-navigation" class="main-navigation pull-right" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
+
+
         </nav><!-- .main-navigation -->
-<?php endif; ?>
-    </div>
+                </div>
+    </div></div></div></div>
+    <?php else : ?>
+
+
+    <div id="content" class="site-content">
+        <div class="container menuWow"><div class="row"><div class="col-md-6">
+                    <a href="http://gaiaapp.fr/" > <img id="logo" src="/img/logo-gaia.png" title="Logo Gaia"></a>
+                </div>
+                <div class="col-md-6">
+                    <div id="site-header-menu" class="site-header-menu">
+
+                        <nav id="site-navigation" class="main-navigation pull-right" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
+
+                            <?php
+                            wp_nav_menu( array(
+
+                                'theme_location' => 'primary',
+                                'menu' => 'primary',
+                                'menu_class'     => 'primary-menu',
+                            ) );
+                            ?>
+                        </nav><!-- .main-navigation -->
+                    </div>
+                </div></div></div></div>
+        <?php endif; ?>
+
+
+
+

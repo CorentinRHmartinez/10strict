@@ -28,55 +28,7 @@ get_header(); ?>
                     <a  data-scroll  class="btn btn-theme cta-main" href="#découvrir" title="Service" >Découvrir<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a>
                 </div>
             </div>
-        </div>
-
-        <div id="découvrir" class="section2">
-            <h2 class="browntext" style="text-align: center">C'EST AUSSI SIMPLE QUE ÇA !</h2>
-            <div class="container-fluid">
-                <div class="row">
-                    <div  class="col-md-4  col-sm-12">
-                        <div id="sec_1" class="action"><div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/bowl.png"></div><div class="same-height content-produit"><h2>DES PLATS VEGANS FAITS MAISON !</h2><p>Choisissez parmi les recettes de notre brigade de chefs professionnels ou amateurs et dégustez des plats gourmands et colorés.</p></div>
-                        </div></div>
-                    <div  class="col-md-4 col-sm-12">
-                        <div id="sec_2" class="action">
-                            <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/click.png"    ></div><div class="same-height content-produit"><h2>COMMANDEZ EN 3 CLICS !</h2><p>Simplicité, rapidité, efficacité… Une expérience optimale pour commander votre déjeuner ou votre dîner.</p></div></div>
-                    </div><div  class="col-md-4  col-sm-12">
-                        <div id="sec_3" class="action">
-                            <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/coupe.png"></div><div class="same-height content-produit"><h2>FAITES VOUS LIVRER EN 30 MINUTES !</h2><p>Recevez votre commande dans la demi-heure et suivez son avancée en temps réel</p></div></div>
-
-                    </div></div>
-            </div>
-        </div>
-        <div class="section3">
-            <h2 class="browntext" style="text-align: center; padding-bottom: 30px;">EN ATTENDANT DÉCOUVREZ NOTRE SÉLECTION DE RESTAURANTS</h2>
-            <div class="container-fluid">
-                <div class="row">
-                    <div  class="col-md-4  col-sm-12">
-                        <div id="img-1" class="action2">
-
-                            <div class="commande">Café pinson</div>
-                            <a class="btn btn-theme cta-main flex_end btn-wait" href="http://www.cafepinson.fr" onclick="window.open(this.href); return false;" title="Service" >Allons-y !<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i></a>
-                        </div>
-                    </div>
-                    <div  class="col-md-4 col-sm-12">
-                        <div id="img-2" class="action2">
-
-                            <div class="commande">Caju vegan</div>
-                            <a class="btn btn-theme cta-main btn-wait" href="http://www.cajuvegan.fr" onclick="window.open(this.href); return false;" title="Service" >Allons-y !<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a>
-                        </div>
-                    </div>
-
-                    <div  class="col-md-4  col-sm-12">
-                        <div id="img-3" class="action2">
-
-                            <div class="commande">Wild&themoon</div>
-                            <a class="btn btn-theme cta-main btn-wait" href="http://www.wildandthemoon.com" onclick="window.open(this.href); return false;" title="Service" >Allons-y !<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a></div>
-                    </div>
-                </div>
-
-            </div> </div>
-            <div class="col-xs-12"><p class="text browntext">les restaurants près de chez vous</p></div>
-            <div class="section5"><div class="container-fluid"><div id="map"></div></div></div>
+        </div></div>
             <div class="col-xs-12"><p class="text fff browntext">VOUS NE POURREZ PLUS VOUS EN PASSER !</p></div>
 
 
@@ -92,8 +44,8 @@ get_header(); ?>
 
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div class="col-xs-12"><p class="text" style="padding-top: 50px;">Votre boite  mail a besoin de fraîcheur ?
-                            Abonnez vous à la newsletter de Mère Nature !</p></div>
+                        <div class="col-xs-12"><p class="text" style="padding-top: 30px;">Votre boite  mail a besoin de fraîcheur ?</p>
+                         <p class="text">Abonnez vous à la newsletter de Mère Nature !</p></div>
                         <div class="callout-btn-box">
                             <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
                             <!-- <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
@@ -174,6 +126,54 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+
+        <div id="découvrir" class="section2">
+            <h2 class="browntext" style="text-align: center">C'EST AUSSI SIMPLE QUE ÇA !</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div  class="col-md-4  col-sm-12">
+                        <div id="sec_1" class="action"><div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/bowl.png"></div><div class="same-height content-produit"><h2>DES PLATS VEGANS FAITS MAISON !</h2><p>Choisissez parmi les recettes de notre brigade de chefs professionnels ou amateurs et dégustez des plats gourmands et colorés.</p></div>
+                        </div></div>
+                    <div  class="col-md-4 col-sm-12">
+                        <div id="sec_2" class="action">
+                            <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/click.png"    ></div><div class="same-height content-produit"><h2>COMMANDEZ EN 3 CLICS !</h2><p>Simplicité, rapidité, efficacité… Une expérience optimale pour commander votre déjeuner ou votre dîner.</p></div></div>
+                    </div><div  class="col-md-4  col-sm-12">
+                        <div id="sec_3" class="action">
+                            <div class="img-prodtuit"><img src="wordpress/wp-content/themes/Gaiaappchild/img/coupe.png"></div><div class="same-height content-produit"><h2>FAITES VOUS LIVRER EN 30 MINUTES !</h2><p>Recevez votre commande dans la demi-heure et suivez son avancée en temps réel</p></div></div>
+
+                    </div></div>
+            </div>
+        </div>
+        <div class="section3">
+            <h2 class="browntext" style="text-align: center; padding-bottom: 30px;">EN ATTENDANT DÉCOUVREZ NOTRE SÉLECTION DE RESTAURANTS</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div  class="col-md-4  col-sm-12">
+                        <div id="img-1" class="action2">
+
+                            <div class="commande">Café pinson</div>
+                            <a class="btn btn-theme cta-main flex_end btn-wait" href="http://www.cafepinson.fr" onclick="window.open(this.href); return false;" title="Service" >Allons-y !<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i></a>
+                        </div>
+                    </div>
+                    <div  class="col-md-4 col-sm-12">
+                        <div id="img-2" class="action2">
+
+                            <div class="commande">Caju vegan</div>
+                            <a class="btn btn-theme cta-main btn-wait" href="http://www.cajuvegan.fr" onclick="window.open(this.href); return false;" title="Service" >Allons-y !<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a>
+                        </div>
+                    </div>
+
+                    <div  class="col-md-4  col-sm-12">
+                        <div id="img-3" class="action2">
+
+                            <div class="commande">Wild&themoon</div>
+                            <a class="btn btn-theme cta-main btn-wait" href="http://www.wildandthemoon.com" onclick="window.open(this.href); return false;" title="Service" >Allons-y !<!--<i class="fa fa-angle-double-down" aria-hidden="true">--></i>  </a></div>
+                    </div>
+                </div>
+
+            </div> </div>
+            <div class="col-xs-12"><p class="text browntext">les restaurants près de chez vous</p></div>
+            <div class="section5"><div class="container-fluid"><div id="map"></div></div></div>
 
 
 
