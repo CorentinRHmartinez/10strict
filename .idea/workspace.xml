@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb79d55e-9c21-4908-b64f-dcdd44aeecba" name="Default" comment="" />
+    <list default="true" id="bb79d55e-9c21-4908-b64f-dcdd44aeecba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css" afterPath="$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="831" column="12" lean-forward="false" selection-start-line="831" selection-start-column="12" selection-end-line="831" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -389,16 +402,16 @@
       <workItem from="1500279527152" duration="4000" />
       <workItem from="1500297054928" duration="577000" />
       <workItem from="1500301415199" duration="1245000" />
-      <workItem from="1500365363405" duration="2112000" />
+      <workItem from="1500365363405" duration="2145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54336000" />
+    <option name="totallyTimeSpent" value="54369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1167" height="731" extended-state="1" />
-    <editor active="false" />
+    <frame x="45" y="23" width="1167" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30488887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -705,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="776" column="15" lean-forward="false" selection-start-line="776" selection-start-column="15" selection-end-line="776" selection-end-column="15" />
+        <state relative-caret-position="227">
+          <caret line="831" column="12" lean-forward="false" selection-start-line="831" selection-start-column="12" selection-end-line="831" selection-end-column="12" />
           <folding />
         </state>
       </provider>

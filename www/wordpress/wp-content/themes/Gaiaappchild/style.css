@@ -829,10 +829,11 @@ table {
 .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
     box-sizing: border-box;
     border: 1px solid rgba(108, 216, 177, 0);
-    width: 70%;
+    width: 50%;
     border-bottom: 1px solid rgb(115, 218, 181);
     background-color: rgba(108, 216, 177, 0);
     border-radius: inherit;
+    text-align: center;
 }
 .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
     float: left;
