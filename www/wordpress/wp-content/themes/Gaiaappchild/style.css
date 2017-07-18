@@ -840,6 +840,20 @@ table {
     flex: 0 0 70%;
     max-width: 70%;
 }
+.wc_payment_method .payment_box {
+    padding: 2em;
+    margin-right: 5%;
+    background: #eee;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    float: right;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+.wc_payment_method {
+    list-style: none;
+    border-bottom: 0px solid #ddd;
+}
 
 
 @media (min-width: 576px) {
@@ -885,6 +899,7 @@ table {
     padding-bottom: .5em;
     display: none;
 }
+    
 
 }
 @media (max-width: 767px) {  }
