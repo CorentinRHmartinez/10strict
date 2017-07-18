@@ -826,6 +826,22 @@ table {
 .entry-content {
     width: 100% !important;
 }
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
+    box-sizing: border-box;
+    border: 1px solid rgba(108, 216, 177, 0);
+    width: 70%;
+    border-bottom: 1px solid rgb(115, 218, 181);
+    background-color: rgba(108, 216, 177, 0);
+    border-radius: inherit;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    width: 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+
 @media (min-width: 576px) {
 }
 
@@ -864,6 +880,12 @@ table {
     .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
     width: 100%;
 }
+.woocommerce #content table.cart td.actions .coupon, .woocommerce table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {
+    float: none;
+    padding-bottom: .5em;
+    display: none;
+}
+
 }
 @media (max-width: 767px) {  }
 
