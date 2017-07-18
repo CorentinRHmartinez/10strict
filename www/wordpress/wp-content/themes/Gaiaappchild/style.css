@@ -787,7 +787,7 @@ background-color: #6cd8b1;
 }
 .lost_password{
     margin-top: 0;
-    margin-bottom: 7rem !important;
+    margin-bottom: 19rem !important;
     }
 #post-57{
     text-align: center;
@@ -825,6 +825,8 @@ table {
 }
 .entry-content {
     width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
     box-sizing: border-box;

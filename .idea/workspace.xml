@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb79d55e-9c21-4908-b64f-dcdd44aeecba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css" afterPath="$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +21,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="831" column="12" lean-forward="false" selection-start-line="831" selection-start-column="12" selection-end-line="831" selection-end-column="12" />
+            <state relative-caret-position="302">
+              <caret line="789" column="21" lean-forward="false" selection-start-line="789" selection-start-column="21" selection-end-line="789" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -81,7 +82,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="-996" />
     <option name="y" value="23" />
     <option name="width" value="1167" />
     <option name="height" value="731" />
@@ -402,15 +403,15 @@
       <workItem from="1500279527152" duration="4000" />
       <workItem from="1500297054928" duration="577000" />
       <workItem from="1500301415199" duration="1245000" />
-      <workItem from="1500365363405" duration="2145000" />
+      <workItem from="1500365363405" duration="2372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54369000" />
+    <option name="totallyTimeSpent" value="54596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1167" height="731" extended-state="0" />
+    <frame x="-996" y="23" width="1167" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30488887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -419,7 +420,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21439749" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21439749" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -718,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="831" column="12" lean-forward="false" selection-start-line="831" selection-start-column="12" selection-end-line="831" selection-end-column="12" />
+        <state relative-caret-position="302">
+          <caret line="789" column="21" lean-forward="false" selection-start-line="789" selection-start-column="21" selection-end-line="789" selection-end-column="21" />
           <folding />
         </state>
       </provider>
