@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb79d55e-9c21-4908-b64f-dcdd44aeecba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css" afterPath="$PROJECT_DIR$/www/wordpress/wp-content/themes/Gaiaappchild/style.css" />
-    </list>
+    <list default="true" id="bb79d55e-9c21-4908-b64f-dcdd44aeecba" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -392,15 +389,15 @@
       <workItem from="1500279527152" duration="4000" />
       <workItem from="1500297054928" duration="577000" />
       <workItem from="1500301415199" duration="1245000" />
-      <workItem from="1500365363405" duration="1849000" />
+      <workItem from="1500365363405" duration="2112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54073000" />
+    <option name="totallyTimeSpent" value="54336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1167" height="731" extended-state="0" />
+    <frame x="45" y="23" width="1167" height="731" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30488887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

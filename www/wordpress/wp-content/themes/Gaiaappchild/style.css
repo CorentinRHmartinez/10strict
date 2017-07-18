@@ -843,7 +843,8 @@ table {
 .wc_payment_method .payment_box {
     padding: 2em;
     margin-right: 5%;
-    background: #eee;
+    background: rgba(108, 216, 177, 0);
+    border: 5px solid #6cd8b1;
 }
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
     float: right;
@@ -854,8 +855,22 @@ table {
     list-style: none;
     border-bottom: 0px solid #ddd;
 }
-
-
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: left;
+    max-width: 30%;
+}
+#order_review_heading{
+    margin-left: 10px;
+    }
+#order_review{
+    margin-left: 10px;
+    }
+.wcmp_sale_price, .woocommerce-Price-amount, ins .woocommerce-Price-amount {
+    color: rgb(226, 247, 239);
+}
+.wcmp_sale_price, .woocommerce-Price-amount, ins .woocommerce-Price-amount {
+    color: #3f3734;
+}
 @media (min-width: 576px) {
 }
 
